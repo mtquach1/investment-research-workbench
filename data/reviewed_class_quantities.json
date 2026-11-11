@@ -1,0 +1,41 @@
+{
+  "review_version": "dated-class-statement-review-v1",
+  "reviews": [
+    {
+      "review_id": "aapl-fy2025-common-v1",
+      "cik": 320193,
+      "symbol": "AAPL",
+      "class_title": "Common Stock, $0.00001 par value per share",
+      "class_context_ref": "c-2",
+      "share_context_ref": "c-20",
+      "accession": "0000320193-25-000079",
+      "source_sha256": "c28f94b10f309d5433f9381221dbf961668a419d832c6990c23a7643850db0da",
+      "measured_on": "2025-09-27",
+      "filed_on": "2025-10-31",
+      "reviewed_on": "2026-11-03",
+      "shares": "14773260000",
+      "scale": 3,
+      "decimals": "-3",
+      "statement_location": "Consolidated balance sheet, page 31; Note 10 ending share rollforward, page 45",
+      "review_basis": "The cover maps AAPL to common stock with $0.00001 par value. The balance-sheet common-stock caption has that same par value and reports 14,773,260 thousand shares outstanding at fiscal year end. Note 10 corroborates the ending count. This reviewed statement link does not establish every economic class or current quantity."
+    },
+    {
+      "review_id": "nvda-fy2026-common-v1",
+      "cik": 1045810,
+      "symbol": "NVDA",
+      "class_title": "Common Stock, $0.001 par value per share",
+      "class_context_ref": "c-1",
+      "share_context_ref": "c-11",
+      "accession": "0001045810-26-000021",
+      "source_sha256": "87f19380345bd8d8af6f3d46f8fa6e95499f11e139b5dd6123669a1cfd32e135",
+      "measured_on": "2026-01-25",
+      "filed_on": "2026-02-25",
+      "reviewed_on": "2026-11-03",
+      "shares": "24304000000",
+      "scale": 6,
+      "decimals": "-6",
+      "statement_location": "Consolidated balance sheet, page 53; shareholders' equity ending share rollforward, page 54",
+      "review_basis": "The cover maps NVDA to common stock with $0.001 par value. The balance-sheet common-stock caption has that same par value and reports 24,304 million issued/outstanding shares at fiscal year end. The equity rollforward corroborates the count. Preferred shares are separately disclosed; this is not a complete review of rights or all economic classes."
+    }
+  ]
+}

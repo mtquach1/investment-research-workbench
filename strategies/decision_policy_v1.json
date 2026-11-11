@@ -1,0 +1,11 @@
+{
+  "policy_id": "experimental-decision-triage-v1",
+  "minimum_horizon_years": 5,
+  "scope": "Research triage using the existing annual quality/value model; thresholds are design choices, not empirically validated suitability rules.",
+  "precedence": ["consent_and_source_integrity", "missing_or_ambiguous_evidence", "existing_holding_review", "personal_fit", "baseline_selection"],
+  "holding_review": "Flag complete-evidence financial/sector/risk failures, purchase exclusions, short horizon or direct concentration breaches for review. Never turn rank removal alone into a sell.",
+  "hold": "Existing exact-symbol holding meets the supported research rules and entered constraints, regardless of top-ten rank.",
+  "purchase": "Only an unheld baseline-selected company passing entered constraints may receive its original cent amount. Withheld amounts remain cash; no replacement or reoptimization.",
+  "costs_and_taxes": "No liquidation or net sale proceeds computed. Acquisition lots, account type, holding period, fees and applicable taxes require separate review.",
+  "unsupported": ["verified investment recommendation", "suitability certification", "fair-value target", "news-complete assessment", "automatic sell", "ETF look-through", "issuer-wide exposure across share classes", "forecast return", "tax-aware liquidation"]
+}

@@ -1,0 +1,31 @@
+{
+  "version": "official-annual-reference-v1",
+  "reviewed_on": "2026-10-31",
+  "scope": "Manually read published annual statement amounts, USD millions. Limited reference cases, not full-universe source verification. Missing aligned inputs remain unavailable.",
+  "cases": [
+    {
+      "issuer_key": "cik0000040533",
+      "cik": 40533,
+      "period_end": "2025-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000006/gd-20251231.htm",
+      "location": "Consolidated Balance Sheet, printed page 54; USD millions. Liabilities independently sum current 16,796 and noncurrent 14,831.",
+      "values_millions": {"current_liabilities_end":16796,"noncurrent_liabilities_end":14831,"liabilities_end":31627,"assets_end":57249}
+    },
+    {
+      "issuer_key": "aapl",
+      "cik": 320193,
+      "period_end": "2025-09-27",
+      "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+      "location": "Printed pages 29, 31, 33 (PDF pages 31, 33, 35)",
+      "values_millions": {"revenue":416161,"operating_income":133050,"net_income":112010,"operating_cashflow":111482,"capital_expenditures":12715,"assets_start":364980,"assets_end":359241,"liabilities_end":285508}
+    },
+    {
+      "issuer_key": "msft",
+      "cik": 789019,
+      "period_end": "2025-06-30",
+      "source_url": "https://www.microsoft.com/investor/reports/ar25/",
+      "location": "Income Statements, Balance Sheets, Cash Flows Statements; beginning assets are June 30, 2024",
+      "values_millions": {"revenue":281724,"operating_income":128528,"net_income":101832,"operating_cashflow":136162,"capital_expenditures":64551,"assets_start":512163,"assets_end":619003,"liabilities_end":275524}
+    }
+  ]
+}

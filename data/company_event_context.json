@@ -1,0 +1,29 @@
+{
+  "version": "reviewed-company-events-v1",
+  "events": [
+    {
+      "event_id": "amd-meta-2026-10-27",
+      "cik": 2488,
+      "kind": "announcement",
+      "published_on": "2026-10-27",
+      "reviewed_on": "2026-10-28",
+      "scheduled_at": null,
+      "headline": "AMD reports further deployment work with Meta",
+      "fact": "AMD described progress in its Meta infrastructure collaboration and announced a $1 billion investment in Meta's equity offering.",
+      "considerations": "Deployment progress and capital commitments both warrant scrutiny. The announcement alone does not establish realized revenue, profit or a future stock-price direction.",
+      "source_url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure"
+    },
+    {
+      "event_id": "sndk-fy2027q1-call",
+      "cik": 2023554,
+      "kind": "earnings_call",
+      "published_on": "2026-09-29",
+      "reviewed_on": "2026-10-28",
+      "scheduled_at": "2026-10-29T13:30:00-07:00",
+      "headline": "Sandisk schedules fiscal first-quarter earnings call",
+      "fact": "Sandisk announced its fiscal 2027 first-quarter earnings conference call for October 29 at 1:30 p.m. Pacific time.",
+      "considerations": "A scheduled call is an event-risk flag, not a forecast of returns. Results, guidance and market expectations may differ; the announcement does not confirm the eventual outcome.",
+      "source_url": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-report-first-quarter-fiscal-year-2027-results-october-29"
+    }
+  ]
+}

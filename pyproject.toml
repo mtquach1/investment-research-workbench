@@ -1,0 +1,14 @@
+[project]
+name = "tax-investment-strategy-optimizer"
+version = "0.2.0"
+description = "Educational deterministic tax and investment scenario API"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["."]
+python_files = ["test_*.py"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120

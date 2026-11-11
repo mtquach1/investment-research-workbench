@@ -1,0 +1,107 @@
+{
+  "strategy_id": "quality-value-annual-v1",
+  "status": "synthetic_engine_implemented_unvalidated_no_live_recommendations",
+  "universe": "verified_dated_sp500_membership",
+  "financial_basis": "latest_aligned_reported_full_fiscal_year_known_at_as_of",
+  "excluded_sectors": [
+    "Financials",
+    "Real Estate"
+  ],
+  "minimum_eligible_sector_peers": 5,
+  "maximum_financial_period_age_days": 550,
+  "maximum_price_age_calendar_days": 7,
+  "required_positive_fields": [
+    "revenue",
+    "net_income",
+    "operating_income",
+    "operating_cashflow",
+    "free_cashflow",
+    "assets_start",
+    "assets_end",
+    "issuer_market_cap"
+  ],
+  "maximum_liabilities_to_assets": 0.85,
+  "features": [
+    {
+      "name": "return_on_assets",
+      "formula": "net_income / ((assets_start + assets_end) / 2)",
+      "weight": 0.2,
+      "higher_is_better": true
+    },
+    {
+      "name": "operating_margin",
+      "formula": "operating_income / revenue",
+      "weight": 0.2,
+      "higher_is_better": true
+    },
+    {
+      "name": "free_cashflow_margin",
+      "formula": "free_cashflow / revenue",
+      "weight": 0.2,
+      "higher_is_better": true
+    },
+    {
+      "name": "earnings_yield",
+      "formula": "net_income / issuer_market_cap",
+      "weight": 0.2,
+      "higher_is_better": true
+    },
+    {
+      "name": "free_cashflow_yield",
+      "formula": "free_cashflow / issuer_market_cap",
+      "weight": 0.2,
+      "higher_is_better": true
+    }
+  ],
+  "normalization": "within_sector_average_tied_rank_percentile_(rank_minus_1)/(n_minus_1)",
+  "free_cashflow_definition": "operating_cashflow_minus_nonnegative_PPE_cash_capex_same_annual_period",
+  "selection_objective": "maximize_sum_of_selected_strategy_scores",
+  "portfolio": {
+    "stock_count": 10,
+    "target_weight_per_stock": 0.1,
+    "maximum_stocks_per_sector": 3,
+    "maximum_securities_per_issuer": 1,
+    "sales_allowed": false,
+    "fractional_dollar_purchases_assumed": true
+  },
+  "tie_break": "stable_issuer_id_then_security_id",
+  "recommendation_failure_policy": "return_no_proposal_if_membership_prices_core_facts_or_constraints_are_unverified_or_infeasible",
+  "risk_history": {
+    "minimum_daily_return_observations": 756,
+    "annualization_sessions": 252,
+    "volatility": "sample_standard_deviation_of_daily_total_returns_times_sqrt_252",
+    "drawdown": "minimum_total_return_wealth_divided_by_prior_running_peak_minus_one",
+    "role": "disclosure_and_explicit_user_constraints_not_expected_return_prediction"
+  },
+  "evaluation": {
+    "baselines": [
+      "equal_weight_same_eligible_universe",
+      "quality_only_same_constraints",
+      "valuation_only_same_constraints",
+      "identified_broad_market_total_return_benchmark"
+    ],
+    "liability_gate_sensitivity": [
+      0.7,
+      0.85,
+      0.95
+    ],
+    "quality_weight_sensitivity": [
+      0.4,
+      0.6,
+      0.8
+    ],
+    "historical_strategy_claim_requires_point_in_time_data": true,
+    "no_outperformance_claim_without_evidence": true,
+    "benchmark_basis": "pre_tax_total_return_including_distributions_matched_external_cashflows_and_dates",
+    "required_comparison_outputs": [
+      "ending_wealth_difference",
+      "annualized_time_weighted_return_difference",
+      "maximum_drawdown",
+      "annualized_volatility",
+      "turnover",
+      "modeled_costs"
+    ],
+    "strategy_score_is_not_evidence_of_outperformance": true
+  },
+  "research_objective": "outperform_sp500_total_return_after_modeled_costs_over_matched_out_of_sample_periods"
+}

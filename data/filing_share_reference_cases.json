@@ -1,0 +1,45 @@
+{
+  "reference_version": "reviewed-filing-share-cases-v1",
+  "cases": [
+    {
+      "issuer_key": "aapl",
+      "accession": "0000320193-25-000079",
+      "source_sha256": "c28f94b10f309d5433f9381221dbf961668a419d832c6990c23a7643850db0da",
+      "tag": "dei:EntityCommonStockSharesOutstanding",
+      "measured_on": "2025-10-17",
+      "shares": "14776353000",
+      "decimals": "-3",
+      "location": "10-K cover: issued and outstanding as of October 17, 2025"
+    },
+    {
+      "issuer_key": "aapl",
+      "accession": "0000320193-25-000079",
+      "source_sha256": "c28f94b10f309d5433f9381221dbf961668a419d832c6990c23a7643850db0da",
+      "tag": "us-gaap:CommonStockSharesOutstanding",
+      "measured_on": "2025-09-27",
+      "shares": "14773260000",
+      "decimals": "-3",
+      "location": "Balance sheet, page 31: 14,773,260 thousand; Note 10 ending shares corroborates"
+    },
+    {
+      "issuer_key": "cik0001045810",
+      "accession": "0001045810-26-000021",
+      "source_sha256": "87f19380345bd8d8af6f3d46f8fa6e95499f11e139b5dd6123669a1cfd32e135",
+      "tag": "dei:EntityCommonStockSharesOutstanding",
+      "measured_on": "2026-02-20",
+      "shares": "24300000000",
+      "decimals": "-8",
+      "location": "10-K cover: 24.3 billion as of February 20, 2026; rounded"
+    },
+    {
+      "issuer_key": "cik0001045810",
+      "accession": "0001045810-26-000021",
+      "source_sha256": "87f19380345bd8d8af6f3d46f8fa6e95499f11e139b5dd6123669a1cfd32e135",
+      "tag": "us-gaap:CommonStockSharesOutstanding",
+      "measured_on": "2026-01-25",
+      "shares": "24304000000",
+      "decimals": "-6",
+      "location": "Balance sheet, page 53: 24,304 million issued and outstanding"
+    }
+  ]
+}

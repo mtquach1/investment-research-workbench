@@ -1,0 +1,20 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+address = "127.0.0.1"
+enableCORS = true
+enableXsrfProtection = true
+enableStaticServing = false
+maxUploadSize = 1
+disconnectedSessionTTL = 60
+
+[client]
+showErrorDetails = "none"
+
+[theme]
+base = "dark"
+primaryColor = "#7cebd3"
+backgroundColor = "#121c27"
+secondaryBackgroundColor = "#1d2b39"
+textColor = "#eef4fa"

@@ -1,0 +1,1262 @@
+{
+  "format": "public-source-manifest-v1",
+  "git_history_included": false,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 1045,
+      "sha256": "0d544c3bb50e3b1f233db5a5c073e7b9ac6669b23a2b59fd542801219631016c"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 784,
+      "sha256": "829b9854687b112d8c0e81b543a5c87f5eaa2f12fe2035e01405bc8959adeb2b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 741,
+      "sha256": "73aa2be3f2ccdb2e0d667bb377df514c3200b081159a3d1f11a9bd1d93473d12"
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "bytes": 358,
+      "sha256": "b04bb5a924cce334f4e0e5cf5f8a68b4f436120545bbc322450799bbb64f0651"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1221,
+      "sha256": "86b2a699fa4718b196e933871ec6091fe19010cfd91d393b634f18d937171aa2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6633,
+      "sha256": "3e8723daecb127ebd4071659a974cc60836e869ea80c5e863d0ed89ed5756a88"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1425,
+      "sha256": "47469d563fe499dc4aa471ca36f596b3c762492a5b02452e5e1a8ed8719287e9"
+    },
+    {
+      "path": "ai_service.py",
+      "bytes": 4679,
+      "sha256": "a6e7b8b22c7f7bfddb60583d74572daa00b79c979b9a2d25baef677500e3a708"
+    },
+    {
+      "path": "allocation_engine.py",
+      "bytes": 9091,
+      "sha256": "33fba6f3bbcfa6bdc5c7c54b99f14bc177e15f29a10d39f72396c4b52ee80041"
+    },
+    {
+      "path": "allocation_models.py",
+      "bytes": 3972,
+      "sha256": "2009004da35c2e36e3f9aa1a3676ed55587683b5d71f3af9feea381ab19f5c5a"
+    },
+    {
+      "path": "allocation_ui.py",
+      "bytes": 7611,
+      "sha256": "0d8aa5409c3e9db99d9f7564c25fddbd8e854f22dea5f414a5b2eb23a1efa46a"
+    },
+    {
+      "path": "alpaca_history.py",
+      "bytes": 12930,
+      "sha256": "b90295263dde2f5525189b8906a4091120304c20475797038ac2bd13a7c2f3ad"
+    },
+    {
+      "path": "api_client.py",
+      "bytes": 2844,
+      "sha256": "44cb27aaa11fc4ef74cc8b2df12a045d09e35cd75cd04ad0a40f818651bcd967"
+    },
+    {
+      "path": "class_quantity_review.py",
+      "bytes": 6100,
+      "sha256": "ed69d7b4d2377b62ecf63c246c0353d27164a539d0486f1f1483bef78de3b33b"
+    },
+    {
+      "path": "class_share_ledger.py",
+      "bytes": 8618,
+      "sha256": "7e139394c9058f433a3bd323f20f9a7ed818025bd520dd6e16e276b5e6cd1867"
+    },
+    {
+      "path": "company_events.py",
+      "bytes": 7233,
+      "sha256": "f29fb82fa0120a7b4bc1332d2e09e771e5d63df0e184de4070500c9c26a309ea"
+    },
+    {
+      "path": "company_events_ui.py",
+      "bytes": 5406,
+      "sha256": "d197a93524c6cf446855e3375b1b3787e35dd1c00294f2fe9324eb9188b7d95d"
+    },
+    {
+      "path": "company_market.py",
+      "bytes": 3903,
+      "sha256": "71d034d49a28fe1acd4276e928f3ed5714ad3ecd7c35e6f54e465428c3926876"
+    },
+    {
+      "path": "company_research.py",
+      "bytes": 8095,
+      "sha256": "d5c2c6b9496fc489d97b7c2cd83d528682f932e8cc95bfea6636728a663dc980"
+    },
+    {
+      "path": "company_research_ui.py",
+      "bytes": 13275,
+      "sha256": "46c0de81cd544a9f2b12e1418298ab926cc6c5ba6ead61bc19cd5207d3c9db97"
+    },
+    {
+      "path": "company_strategy.py",
+      "bytes": 4879,
+      "sha256": "914809851462b4b2b1c3c597fc9bf2a6d3a12765e2bbd169f592e6733d9de0b1"
+    },
+    {
+      "path": "config.py",
+      "bytes": 2877,
+      "sha256": "9e34f91d03a4f32da83b579d7b63a0c3c1664f0c104eaa40ae01525cd685add7"
+    },
+    {
+      "path": "coverage_report.py",
+      "bytes": 4138,
+      "sha256": "857ed818f560681b12243a319d3ab6defa4c759865764f143b7a71e2482f7c26"
+    },
+    {
+      "path": "daily_stock_refresh.py",
+      "bytes": 20380,
+      "sha256": "bc1854601924b8f8f5a35e34105066ada8fdc7cf13a8c7137f5dc73ad7e2c1cb"
+    },
+    {
+      "path": "data/company_event_context.json",
+      "bytes": 1635,
+      "sha256": "229fa59e3fe254e88ee5db71edb67bf491dcc751958e6eb64a5d52acfa6b6871"
+    },
+    {
+      "path": "data/filing_share_reference_cases.json",
+      "bytes": 1754,
+      "sha256": "625f6d52ad167d423b237db282be3cc99386dfb76792679a27ee748f23d475f4"
+    },
+    {
+      "path": "data/financial_reference_cases.json",
+      "bytes": 1756,
+      "sha256": "b454e211a7af3f9cf8bddaf1960b3cfd1b8476a59a14af9b8b5921d397b2a865"
+    },
+    {
+      "path": "data/reviewed_class_quantities.json",
+      "bytes": 2125,
+      "sha256": "5d5ee8de7901b3ca65e1f1957bfd9255aab104a53a2ef764b28b588f7a890f19"
+    },
+    {
+      "path": "data_audit.py",
+      "bytes": 13327,
+      "sha256": "39e98614e3541a6dc138f140466b8973164f85829687534f42c05524a5aeafc5"
+    },
+    {
+      "path": "data_pipeline.py",
+      "bytes": 14042,
+      "sha256": "05a773e7e078d51bc18da71d6002d73c7f1a210527ddc4ae8cc0be6111a72e3a"
+    },
+    {
+      "path": "data_readiness_ui.py",
+      "bytes": 7110,
+      "sha256": "6d7cf042102cdfe0869b8daecffdcc69044cb7823dd3c8796f64a615e62a2602"
+    },
+    {
+      "path": "debt_engine.py",
+      "bytes": 6668,
+      "sha256": "9c41a2890b3c4a3a92089c835a2c1d44b2e90229c8f3fa0994e473de1389cc26"
+    },
+    {
+      "path": "decision_snapshots.py",
+      "bytes": 9608,
+      "sha256": "0fee501599b69d9b2d6acaf7743b474a127f363e94353aeea3e67442a7936491"
+    },
+    {
+      "path": "decision_snapshots_ui.py",
+      "bytes": 7893,
+      "sha256": "dbc576dfd52b3b4e605bf95ac597c1a29b48186d316371ad6df4503e35aa81d5"
+    },
+    {
+      "path": "docs/BLOCKER_RESOLUTION_PLAN.md",
+      "bytes": 22075,
+      "sha256": "dcbcf52d2a1b09384eac03d58eb6a75da1d773406c34a73472eff8a6998d90e7"
+    },
+    {
+      "path": "docs/DATA_RIGHTS.md",
+      "bytes": 2116,
+      "sha256": "30db9e3f68d7469f63b985fe20b64f32a07a581b61b311b5587ad17617a95768"
+    },
+    {
+      "path": "docs/DECISION_WORKFLOW_PIPELINE.md",
+      "bytes": 17400,
+      "sha256": "3d80391581bcdc34a81b9e566c691faa845f134c63f25d70b9da3f063c0669b5"
+    },
+    {
+      "path": "docs/PROJECT_HANDOFF.md",
+      "bytes": 61617,
+      "sha256": "730bb453fe65331bdba644550812607a08fbcf19e08ab10ab51f3006c4dc2c69"
+    },
+    {
+      "path": "docs/PROJECT_ROADMAP.md",
+      "bytes": 48883,
+      "sha256": "8cf248a789482c43fdfeb92f2916add64b06d9a1a5884cd5d911ccaa6e66aefe"
+    },
+    {
+      "path": "docs/UI_CLARITY_GUIDELINES.md",
+      "bytes": 2376,
+      "sha256": "ac0f719ca3390f62538bf209dad632aef2576dc04f0c809669d82ec45e4dd8da"
+    },
+    {
+      "path": "docs/annual-financial-normalization.md",
+      "bytes": 3895,
+      "sha256": "b893399ae49d900a3446968bd1bec4c67d6dbf63d8ced3664fd0514eb0268dee"
+    },
+    {
+      "path": "docs/chart-clarity-and-price-checks.md",
+      "bytes": 3540,
+      "sha256": "460e140b78623064d34ab41aa509f218c1236eac2011c63a298a171d0f538276"
+    },
+    {
+      "path": "docs/class-and-financial-evidence.md",
+      "bytes": 8486,
+      "sha256": "47b7e2aaae231d676aac580d2bbc31d02f2eba8b1404f9727ef8dc167c4d6207"
+    },
+    {
+      "path": "docs/class-share-ledger.md",
+      "bytes": 6142,
+      "sha256": "4ab6b5f4f3603cbed467a882999902a35ea3662ff573593f9871367f76504898"
+    },
+    {
+      "path": "docs/company-news-events.md",
+      "bytes": 6592,
+      "sha256": "d540bfa8653601e94961d7329c522f27c8f936f9be5cdb87e43ccbe6e17154ff"
+    },
+    {
+      "path": "docs/company-strategy-evidence.md",
+      "bytes": 3509,
+      "sha256": "5959aab6428acfca2f9f52caee2bcd2c6b45db6a8ba00faeece5e8fc686f6802"
+    },
+    {
+      "path": "docs/contribution-allocation.md",
+      "bytes": 8734,
+      "sha256": "084ef1ba3e4b9f1f2dbfbfc4162c2e4a21beed76e59952bb24cdd33eaeadd858"
+    },
+    {
+      "path": "docs/coordinated-reference-refresh.md",
+      "bytes": 5802,
+      "sha256": "0c90516ae5bf83d6a08d1753d16a2748043534a65ccff1c41ac621d5f400036f"
+    },
+    {
+      "path": "docs/daily-stock-refresh.md",
+      "bytes": 8152,
+      "sha256": "6ed83e446b8a95c2b56669830fd14bcc6f2f00cfd1dd3a21684ebb2d9bda8611"
+    },
+    {
+      "path": "docs/data-feasibility-2026-10-28.md",
+      "bytes": 8544,
+      "sha256": "ffe0b7d9eb773995c0e456a7cfb9b03b65b7037e90b7b88fe52951724a8c52ca"
+    },
+    {
+      "path": "docs/debt-payoff-model.md",
+      "bytes": 2684,
+      "sha256": "79c857e2321b843810fa94aa6af13ab92db40142396e439928754755ac016325"
+    },
+    {
+      "path": "docs/decision-review-and-validation.md",
+      "bytes": 8511,
+      "sha256": "7cb6bcc96e000f41886e595e5eb4b828f2437616c237670cd85d52b0ad7ffd64"
+    },
+    {
+      "path": "docs/decision-snapshots.md",
+      "bytes": 5928,
+      "sha256": "acbc604986c2c79812bbd4e251721e3bb1f796d23fe31e6657bf31f72b53ea07"
+    },
+    {
+      "path": "docs/development-history.md",
+      "bytes": 42828,
+      "sha256": "4c93ea4858e1c47c6b85de2654486ff642069ac6083e3c43dbcd152289cb411f"
+    },
+    {
+      "path": "docs/experimental-research-basket.md",
+      "bytes": 4547,
+      "sha256": "b3dae17bafc020bebe1125c5038eab827050c76c4cc32f2ebde7fec52ea9c9aa"
+    },
+    {
+      "path": "docs/filing-share-evidence.md",
+      "bytes": 6351,
+      "sha256": "5f45bcc9e803e8b6112fb64f007d62350cc33c276a3f7a2d91e6c9068ff4e92d"
+    },
+    {
+      "path": "docs/financial-readiness-guide.md",
+      "bytes": 4085,
+      "sha256": "936e7518478ebe3341b8ec5aeaa89e9cc728e15d2484ec49e8661fbcd8868716"
+    },
+    {
+      "path": "docs/free-company-research.md",
+      "bytes": 5075,
+      "sha256": "a70e68100349e4cf64e45dd7a82ff4fc2cf3bec1c7b6369efaeeb3740fad5f9a"
+    },
+    {
+      "path": "docs/fundamental-refresh.md",
+      "bytes": 7593,
+      "sha256": "6c0ae971a510b1c1583cdbd34956d2c11e658b3460cb49753819d0d0e5bd25a5"
+    },
+    {
+      "path": "docs/goal-explorer-acceptance.md",
+      "bytes": 4865,
+      "sha256": "37dd18f200ca20fc803ae2b36648391cd57ecb22dfeb092561d232c25e4befff"
+    },
+    {
+      "path": "docs/goal-explorer.md",
+      "bytes": 8289,
+      "sha256": "fd494b37f9f5285bcb27d4b90cac42b7bdbf509b76cc1e60643de134cb711229"
+    },
+    {
+      "path": "docs/goal-pdf-reports.md",
+      "bytes": 6348,
+      "sha256": "4b11f3b7b746ca043dd2551a975a4ed8e9a78f27ba258b6664408674c49b68b1"
+    },
+    {
+      "path": "docs/goal-risk-analysis.md",
+      "bytes": 2528,
+      "sha256": "228daf5e0b1b0fbcad97a99a2687c5abb46a86a5eef5c3fa9b3e86f14378d951"
+    },
+    {
+      "path": "docs/goal-sensitivity.md",
+      "bytes": 1478,
+      "sha256": "4edaed073191875d58df35dd6d6d5cc8fc4d263d69efaf2dbac66c225872441b"
+    },
+    {
+      "path": "docs/guided-holding-review.md",
+      "bytes": 2816,
+      "sha256": "12b5c1044f282c459e420011d2cf90c26cdfc14e8cfc6e183ff9bd67efc45cd1"
+    },
+    {
+      "path": "docs/historical-class-statement-matches.md",
+      "bytes": 5084,
+      "sha256": "29e5d9dca8fe0b22d9764529f23c7bd3737e20625b75626038ac01e96a3f9381"
+    },
+    {
+      "path": "docs/listing-calendar-correction.md",
+      "bytes": 4072,
+      "sha256": "08b376cbfaf8108ddf0716145e5f7de945f65dd2df9fd2e1259164567fd6f1fe"
+    },
+    {
+      "path": "docs/listing-evidence-and-coverage.md",
+      "bytes": 8673,
+      "sha256": "80d9e5226d1674a32eaf718e6cb187199a17f307766baa7389846a4acad735d7"
+    },
+    {
+      "path": "docs/local-market-history.md",
+      "bytes": 9569,
+      "sha256": "0439f7d8da1ec72618465fe619fcca272d82b3039e298a16620c82d70c1d7733"
+    },
+    {
+      "path": "docs/monthly-stock-contributions.md",
+      "bytes": 3831,
+      "sha256": "a5c6185cfe1be4d9fe945a3b189cf795210308056b08789f92eb24cba3758187"
+    },
+    {
+      "path": "docs/orange-county-data-audit.md",
+      "bytes": 4293,
+      "sha256": "27bcbe64a34423e1f6e7673b8d7b3823b2f6cc479076f3a777144c64cfccf838"
+    },
+    {
+      "path": "docs/personal-holding-notes.md",
+      "bytes": 2799,
+      "sha256": "66c19ebf09958c045bdb8f13344bc6911fcd6ab5751265db89c408b07809c379"
+    },
+    {
+      "path": "docs/privacy-boundaries.md",
+      "bytes": 12085,
+      "sha256": "6b67b406a890a4445bf6033854da755020b5ee907149e0b9ebfb46e3e8378798"
+    },
+    {
+      "path": "docs/public-data-pipeline.md",
+      "bytes": 11985,
+      "sha256": "6f1ba1b38160487238a591ee83ed0c05141e1336a17fb3e30708a944105274be"
+    },
+    {
+      "path": "docs/public-upload.md",
+      "bytes": 2494,
+      "sha256": "373de7da799bfb1d1de76208d9fb0975edb0492e94f0ce07be982e9276a8368c"
+    },
+    {
+      "path": "docs/publication-readiness.md",
+      "bytes": 5116,
+      "sha256": "910d59bfd854f0530d0d8f547846c30ef9c7d4368cef27577fab9887391f1393"
+    },
+    {
+      "path": "docs/ranking-cost-evaluation.md",
+      "bytes": 2458,
+      "sha256": "76ad1c166b62d9b1c58f18f9111f320e5ba591ec22920db8913bb3695f29b5df"
+    },
+    {
+      "path": "docs/rental-holding-period.md",
+      "bytes": 5618,
+      "sha256": "994e15f421d8f42d5208c4f309ac6d08ca9bb949c301b5254304c84655aee918"
+    },
+    {
+      "path": "docs/rental-underwriting-v2.md",
+      "bytes": 4556,
+      "sha256": "8aba13bb5e39a671f0650c1de2509cc63cf0bdc69f023b036341fd1e5c5f663a"
+    },
+    {
+      "path": "docs/research-demo.md",
+      "bytes": 1759,
+      "sha256": "2d30b04e5ef7b1ac987b40c710abb5af6ee3beacd3c512c1fdcccf661a191656"
+    },
+    {
+      "path": "docs/saved-scenario-runs.md",
+      "bytes": 3203,
+      "sha256": "8d463c60c2bd748f2fa5dc474e3c56674df07c097be0e36bc9642dbcc3ccd1e9"
+    },
+    {
+      "path": "docs/sec-issuer-imports.md",
+      "bytes": 3919,
+      "sha256": "2a39fbf345f7539f5a62987f56223e4cc44fd444a88b4da3d643b6cf6bb2a61d"
+    },
+    {
+      "path": "docs/sector-valuation-readiness.md",
+      "bytes": 7478,
+      "sha256": "1769e23ac9e4cc2d0a5360f63181f07be32fcaf6b25f11bb3b415a9feddd5af0"
+    },
+    {
+      "path": "docs/split-prices-and-investment-replay.md",
+      "bytes": 5994,
+      "sha256": "0e39e3a15feb30624e8d0dcf68bdd29841eee9d75208b387ca1e1fb6a300dae1"
+    },
+    {
+      "path": "docs/stock-data-audit.md",
+      "bytes": 5073,
+      "sha256": "f81eacc5e8567f3626d6a6fe68561885e2dacb6c84999c436193be1e967942cf"
+    },
+    {
+      "path": "docs/stock-decision-pdf.md",
+      "bytes": 2775,
+      "sha256": "722b9e36a986f92a02eb3c61c1b17d4f0f70add01d4800a8b6eac925d4a88805"
+    },
+    {
+      "path": "docs/stock-decision-workflow.md",
+      "bytes": 5983,
+      "sha256": "3e8ded1017c73bbd19a2838a1a60fe221a86a05282e4c19140d51816866b7ade"
+    },
+    {
+      "path": "docs/stock-evidence-refresh-2026-11-07.md",
+      "bytes": 5041,
+      "sha256": "e2dccb4d98eda9f1d2197aaff362fcedaabe55edad6a3841c94b1ba99afe124d"
+    },
+    {
+      "path": "docs/stock-strategy-v1.md",
+      "bytes": 8546,
+      "sha256": "4be69d469057c4eeda74786a1150a4b8c5549322da8f938a5d10905c27568916"
+    },
+    {
+      "path": "docs/stock-verification-and-metrics.md",
+      "bytes": 8306,
+      "sha256": "a34fb6fc4ca220b38ec6f945461c39c548a3ba3bb9425585a0de80c570d0b2f0"
+    },
+    {
+      "path": "docs/stock-workflow-evaluation.md",
+      "bytes": 5433,
+      "sha256": "cd20b99c031edf0106a06f53bfe212e4ce078ed3e96a6ca7ce7bece3fcbd922f"
+    },
+    {
+      "path": "docs/strategy-engine-and-feasibility.md",
+      "bytes": 7977,
+      "sha256": "c21c14a63b858da97e0c02c4fef3802b23edefe84c3a3564c4a37a2cacad37d8"
+    },
+    {
+      "path": "docs/tax-rules-2026.md",
+      "bytes": 4081,
+      "sha256": "4ed6eb076acaae92843e1713b5beae9ca78052bc3b401dbafb6148a42fe3ec71"
+    },
+    {
+      "path": "docs/visual-workspaces.md",
+      "bytes": 4304,
+      "sha256": "59be65f16526714acfd9aa42ba64253948b5aa3c82e515cb9ae5ba2145d30070"
+    },
+    {
+      "path": "equity_reference.py",
+      "bytes": 1568,
+      "sha256": "4531c177b118eeef46db0d649a1b8d3fa9c1b712455defe16a313f10e09fdb27"
+    },
+    {
+      "path": "experimental_basket.py",
+      "bytes": 9762,
+      "sha256": "365414c5a0ec3149911e9bb591461c28e5c37ea3fe1854b0b3caee3db5d776c1"
+    },
+    {
+      "path": "experimental_basket_ui.py",
+      "bytes": 6500,
+      "sha256": "8d62ee9dc8a427ec11e23d7b8d02786ce40b4486a1d82667090f170b2f7e6841"
+    },
+    {
+      "path": "filing_events.py",
+      "bytes": 4217,
+      "sha256": "b54b29723a78a6e904b5210e1606311857c483e0b9223d8171e0a363e2d1bf83"
+    },
+    {
+      "path": "filing_share_evidence.py",
+      "bytes": 6479,
+      "sha256": "c40fe91e4f2982781af86c2694dddb19eed81735e8dbe191230093b6a982a9a8"
+    },
+    {
+      "path": "financial_validation.py",
+      "bytes": 9650,
+      "sha256": "df1946399e8fc67eb27814de61e951a1a41de58a7f2fdab8e17c2d3b19faea7a"
+    },
+    {
+      "path": "fundamental_refresh.py",
+      "bytes": 7183,
+      "sha256": "b8b5feab5e6135ca23379ebea6ed4ca898203144645450f24572953693cb7a0d"
+    },
+    {
+      "path": "goal_explorer.py",
+      "bytes": 4802,
+      "sha256": "1a9eb9375f06df8170fb349486c080cf23fd2603244db22e60fa553583567d5d"
+    },
+    {
+      "path": "goal_explorer_ui.py",
+      "bytes": 26402,
+      "sha256": "dd5d9f05e1d075487c825b24cc563a65dfff2fc8f204d02b38b1cf491edfa3a6"
+    },
+    {
+      "path": "goal_report.py",
+      "bytes": 16748,
+      "sha256": "1c4730586d590770057ea80f85d2f5d0e08e1c95dd35102e0720a98a8ab9030d"
+    },
+    {
+      "path": "history_chart.py",
+      "bytes": 4013,
+      "sha256": "bd0620fbea00523a39436624e117735c37f414bd0136c6f689dd2b4db7fcc1f4"
+    },
+    {
+      "path": "holding_notes.py",
+      "bytes": 1858,
+      "sha256": "480e77bd7fb74e9dc72054829da4ae3c5956f3dfaf39a61c1065d2190385e620"
+    },
+    {
+      "path": "holding_research.py",
+      "bytes": 4994,
+      "sha256": "79b7bb9d97d8dce5f6e8df6686af723382c2fe50b1a6d9ba1d9d941b2df7f4ac"
+    },
+    {
+      "path": "holding_research_ui.py",
+      "bytes": 7481,
+      "sha256": "bc91f05ba593afb38ac85c230dce0639f3c266c41dbd94f0859c0c33cac7486d"
+    },
+    {
+      "path": "investment_visuals.py",
+      "bytes": 6195,
+      "sha256": "820eb521241286bf20db895fd875384b165105a651f24561319ff906996f8c22"
+    },
+    {
+      "path": "investment_workspace_ui.py",
+      "bytes": 22565,
+      "sha256": "f1fdb998ad96456e53daf2147f7f4729e112107bd233cb2942ed9f2b13bcfccb"
+    },
+    {
+      "path": "issuer_mapping.py",
+      "bytes": 926,
+      "sha256": "56d8947d1698bcef14f4caaa84e93d64d36ea83763d67b689ff4666bc93d5c8e"
+    },
+    {
+      "path": "main.py",
+      "bytes": 29935,
+      "sha256": "b8e6d4f638bcfa029a9465d372a5372c4781af6612ccc1d63263c44278934c75"
+    },
+    {
+      "path": "market_catalog.py",
+      "bytes": 8431,
+      "sha256": "fc03996e52cef898c07cddf12ed8a7cf87f116e3e798e74f4a4de02682d09580"
+    },
+    {
+      "path": "market_data.py",
+      "bytes": 11494,
+      "sha256": "6e7eb9291ec01aca5ba9f6c02c9fd7b15c07087e7d16e204de8dfa2e236b3b69"
+    },
+    {
+      "path": "market_history.py",
+      "bytes": 9830,
+      "sha256": "f879bc32e47a2d796717462626ed04a3e908aad24619c747879dec494e256808"
+    },
+    {
+      "path": "market_history_ui.py",
+      "bytes": 14402,
+      "sha256": "1870c325e600307f6243b1330542eb3e39691c185b4da81dabff0938ad3c2993"
+    },
+    {
+      "path": "market_sources.py",
+      "bytes": 5302,
+      "sha256": "befec5e06c372add5ff87b5f6c96930b7377ecc8d9227fa69f554243bc026fa0"
+    },
+    {
+      "path": "paper_portfolio.py",
+      "bytes": 7283,
+      "sha256": "428fa5cc111b37c4ab8303496d4c32e462b6b55c60be567ae56fc64e838e79dd"
+    },
+    {
+      "path": "portfolio_overview.py",
+      "bytes": 2737,
+      "sha256": "24df3bc3f099c6ab31239a2922f4d6ef999bf13d36bb1211c8b82ae397f4fa02"
+    },
+    {
+      "path": "portfolio_overview_ui.py",
+      "bytes": 8660,
+      "sha256": "a853e1834f91a87abd195b99ebad91efee9be4cdc45e7c3f034ccbb91aa0fee2"
+    },
+    {
+      "path": "price_checks.py",
+      "bytes": 6978,
+      "sha256": "d8bb75d8d1217a250c82191f6ac646286ce4ce8bcd48a052a0524c7677133e7c"
+    },
+    {
+      "path": "privacy.py",
+      "bytes": 776,
+      "sha256": "11a7ffb7f661c5fc85aa98a5cf4aca91ef8d3d1c7575631cee0f7b68c45f2f0b"
+    },
+    {
+      "path": "public_data_store.py",
+      "bytes": 4607,
+      "sha256": "6cd61ba2745df997f41d45a4508d65111a8f5a6e6e98aaf224c32e8d8eeed8a9"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 318,
+      "sha256": "b2e207cfe5adb9e47fcee6ebdfa19a04a07593bafc8c72810b05b0603996d2ee"
+    },
+    {
+      "path": "ranking_cost_evaluation.py",
+      "bytes": 6181,
+      "sha256": "1c21e80047bd870f1a6544dc75af4dba3bfaac43e41769e4c2d8b0c9fa63598a"
+    },
+    {
+      "path": "ranking_cost_ui.py",
+      "bytes": 5247,
+      "sha256": "fa4df6df1338941783bd0c26e75a6fdade99a351d232de3d6ab91706b4df6dc4"
+    },
+    {
+      "path": "readiness_engine.py",
+      "bytes": 10680,
+      "sha256": "93e0b617d6a0eb92adba953596c90bcb24f1dff993519b5cda12092c73759051"
+    },
+    {
+      "path": "reference_refresh.py",
+      "bytes": 5998,
+      "sha256": "97d5c77275d9624092c243c24064bab41d07b0925176db06f7582930f12d923b"
+    },
+    {
+      "path": "reference_refresh_ui.py",
+      "bytes": 4356,
+      "sha256": "1c272a9620de48ab2ca4de0912670547533a4ac7dda3c9515a40c1d9847812c5"
+    },
+    {
+      "path": "rental_feasibility.py",
+      "bytes": 9844,
+      "sha256": "070f75668506ce60bfa74dbf62fdfe3ee7ccc2858ef94c3258d080b40612edb5"
+    },
+    {
+      "path": "rental_projection.py",
+      "bytes": 7626,
+      "sha256": "deb84d3fe83164afdf42bf8049a72af90a074275c32f036a570b8b899f7d04e5"
+    },
+    {
+      "path": "rental_projection_ui.py",
+      "bytes": 9628,
+      "sha256": "2c399aea3a2de70da9ac879aed5e6c207667bc4c1f83625af9fdeb156dafceba"
+    },
+    {
+      "path": "repository_safety.py",
+      "bytes": 8987,
+      "sha256": "003c13ebcc19ae2d18e41b7fa3d39319ebfaadd5b7e614e536e81d65d425c831"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 70,
+      "sha256": "da63d8c6fd45b240b33014709171d31fc54d9b2994db4a87bcd371bcab82c0be"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 229,
+      "sha256": "6570386c9f38f828cdd80d669af5ed2d9d42537d8e7e9a40244d0470f84bd76c"
+    },
+    {
+      "path": "research_language.py",
+      "bytes": 5774,
+      "sha256": "9b3bede4fc2720e62a806bb1a152585a09dca73fc59ef3e2617e08e9f6fae4a8"
+    },
+    {
+      "path": "research_workbench_ui.py",
+      "bytes": 9593,
+      "sha256": "64b0b22d9c1b3c2a250aca5d23f581ffc340b78933c1e4699e5db9949bd097da"
+    },
+    {
+      "path": "run_api.py",
+      "bytes": 208,
+      "sha256": "f07b30ac2d3a626b1e57ef58a33111dfece3edfcd3e91d93107106ee2809dc7a"
+    },
+    {
+      "path": "scenario_engine.py",
+      "bytes": 22412,
+      "sha256": "59560f0ce499b0fee6c2d9ca5626592dafb7871c3841436e2e6cdbb2ee55f063"
+    },
+    {
+      "path": "scenario_store.py",
+      "bytes": 3264,
+      "sha256": "044f183f7cd1460dcb46ff59827513e013001460591d01a6f67ee88f364711cd"
+    },
+    {
+      "path": "schemas.py",
+      "bytes": 21364,
+      "sha256": "9293b595f62251a4ebf288cf0f5971b7d320e00f00524960bcdd145f91ac2b78"
+    },
+    {
+      "path": "sec_import.py",
+      "bytes": 4467,
+      "sha256": "06c0550c6ef2d0ed11d17dd1a1e2e3a2f5e3e71adc0d1df6f26674da3b285974"
+    },
+    {
+      "path": "security_identity.py",
+      "bytes": 8598,
+      "sha256": "c320384b1ac0ea5db870875b90cf6510413a3bd082ca01358bc231a3e18f9a03"
+    },
+    {
+      "path": "security_listing.py",
+      "bytes": 7890,
+      "sha256": "68de83fe0527a3b5682585018c414d799860f51210ae16dd1b49cd28fbc2657d"
+    },
+    {
+      "path": "simulation_engine.py",
+      "bytes": 5352,
+      "sha256": "ea26f4f8e2f4acd5994b722e4d05074b262cd04e5629335cebc6fe48f5089ae9"
+    },
+    {
+      "path": "source_adapters.py",
+      "bytes": 11691,
+      "sha256": "b290da66d0c5a37c193cc27a12b660fe9b72c9e234a595a7e441bf3947ce36de"
+    },
+    {
+      "path": "source_policy.py",
+      "bytes": 3073,
+      "sha256": "b7b9a9316747fba2fd5609905527b4c1481ce6921d3e18dc8b5da5c18bd1e28f"
+    },
+    {
+      "path": "stock_acceptance.py",
+      "bytes": 10364,
+      "sha256": "5f8d9e9aaadf3288ed6f3bf9b0efec80a84419ea066d35e0b98e0ef42cc5a596"
+    },
+    {
+      "path": "stock_acceptance_ui.py",
+      "bytes": 5347,
+      "sha256": "b59723674b29152ed7c192132d8b7768c97a02ea9b6e8e61a50ccb3e9757103d"
+    },
+    {
+      "path": "stock_decision_report.py",
+      "bytes": 7904,
+      "sha256": "4245965ebfcf688234393269bb527614208dde88284ee6f45c8501c0bbdb6770"
+    },
+    {
+      "path": "stock_decision_review.py",
+      "bytes": 5396,
+      "sha256": "7dd39e7cdc0a62fe4bd30a8adc909e9afc081e29a9dc760be824306f6adbe9e8"
+    },
+    {
+      "path": "stock_decisions.py",
+      "bytes": 12666,
+      "sha256": "b1c3efc47fe0ea8cba9c27bdc1faf73d93b0e3ded2fa4f84ad45c00d9ed7ce20"
+    },
+    {
+      "path": "stock_decisions_ui.py",
+      "bytes": 11035,
+      "sha256": "9c93cba2e8700299325b97e42ddd24f3dffc0a9dc1ae2907b502c9b1a4335fea"
+    },
+    {
+      "path": "stock_evidence.py",
+      "bytes": 6209,
+      "sha256": "fbd1f15bcf28aab642ecda15ab5cf018b160777ca470a7b57d5846a16c2bd9d5"
+    },
+    {
+      "path": "stock_financials.py",
+      "bytes": 10789,
+      "sha256": "6a64fe715a515673c5f91ab11728ce3558b7c5c09c4c9892bfdc1e93d1418884"
+    },
+    {
+      "path": "stock_metrics.py",
+      "bytes": 7610,
+      "sha256": "296ec7eed6cd8083484378d22bded884a3c4b47df81dcfec19aba0fad5865278"
+    },
+    {
+      "path": "stock_monthly.py",
+      "bytes": 8120,
+      "sha256": "f60f0139707edc075b69b2ca8947f10a6640ef8b42a18823e3d747f091ab67fa"
+    },
+    {
+      "path": "stock_monthly_ui.py",
+      "bytes": 3270,
+      "sha256": "c6c71705f4c39ad6c5dd1ab6fa86a936620be2fdf05355529fca0f8f3b3b7052"
+    },
+    {
+      "path": "stock_portfolio.py",
+      "bytes": 3268,
+      "sha256": "fa06cc0f3d3ffa37a60dbb64ae819bab7576c60c3dcb3886d0177ee66c45cbbe"
+    },
+    {
+      "path": "stock_refresh_ui.py",
+      "bytes": 2772,
+      "sha256": "2a72fbc90e55d47349491541470eda934e2682454f2e2eb9f5a3c4267d48d9e4"
+    },
+    {
+      "path": "stock_replay.py",
+      "bytes": 6733,
+      "sha256": "bcb2edd8ab1331515065865d436d89682b8bb9eff54dbc6f37d899483e30825a"
+    },
+    {
+      "path": "stock_review_ui.py",
+      "bytes": 15445,
+      "sha256": "b4339978c5987633ea19f7c5c960a6eb0c0cba0bf6f6cef320e36b8d9035904d"
+    },
+    {
+      "path": "stock_screen.py",
+      "bytes": 17131,
+      "sha256": "1ab4d32f1b2955dd10a5a30cf5e6e4fe9a3e2551e450c467d9e3de867c72ce82"
+    },
+    {
+      "path": "stock_screen_ui.py",
+      "bytes": 31396,
+      "sha256": "d902299185a85416af07631c2b9662cdff0923ac08ca0860e2f0f397c318862a"
+    },
+    {
+      "path": "stock_strategy.py",
+      "bytes": 12566,
+      "sha256": "0bdb55238dbbd2c64be5d406cddb7838268dc3373b5cd9e0a17d3b0083983a38"
+    },
+    {
+      "path": "stock_workflows_ui.py",
+      "bytes": 8195,
+      "sha256": "76792112a1d395c088cce7262117ebc1687c07bcce0dbd8cb7be5b7261fc09c8"
+    },
+    {
+      "path": "strategies/decision_policy_v1.json",
+      "bytes": 1335,
+      "sha256": "bb414456ca51199606d2b33a3cfa38c3da8c43a3fbb1dc47988c864c73da2a25"
+    },
+    {
+      "path": "strategies/quality_value_annual_v1.json",
+      "bytes": 3634,
+      "sha256": "325bbe9c2af8927e49ec8fa4ee29a6893a1572d842b823037f88f3100cd4e7d7"
+    },
+    {
+      "path": "strategy_financial_rules.py",
+      "bytes": 1885,
+      "sha256": "d91cd4b233bc2da3d0006eb15011c85ec0b67af02fbf06c7243384ee8d387755"
+    },
+    {
+      "path": "streamlit_app.py",
+      "bytes": 44426,
+      "sha256": "06e43100ccdf344504e8c160acdd735880efe59da0b7be4f7e24ff4379f02579"
+    },
+    {
+      "path": "tax_engine.py",
+      "bytes": 11583,
+      "sha256": "8a7211a99a86c85df0581795c5fb8a093ec6cba926827fce6576e0b93c1853e9"
+    },
+    {
+      "path": "test_allocation_engine.py",
+      "bytes": 8858,
+      "sha256": "bef4bf16a1e75abe1669eb55a450acf6793d50078a668fe0fc25c5860ff8759c"
+    },
+    {
+      "path": "test_alpaca_history.py",
+      "bytes": 8065,
+      "sha256": "f82396aad8c10bcdd9072a38befa0812cd50b432606119a928d8714659301803"
+    },
+    {
+      "path": "test_api_contracts.py",
+      "bytes": 8277,
+      "sha256": "e9275bbb943ab17a49a2ea6d2f6c7b8a10ee8a741ecc35fd71857d4b07343549"
+    },
+    {
+      "path": "test_api_requests.py",
+      "bytes": 32608,
+      "sha256": "a22ff1a6fb8b76cbf65ff37544a7da7e59161aace02988720d4338489b77e03a"
+    },
+    {
+      "path": "test_class_quantity_review.py",
+      "bytes": 6321,
+      "sha256": "99ddef19544efc54a035cda3fdea9b74f95a7eee14e8255827c3383550bacf11"
+    },
+    {
+      "path": "test_class_share_ledger.py",
+      "bytes": 4911,
+      "sha256": "8fa9b2d8e6613a403cd6ebdf5e051962b7d2900d63fc707a64fd53eec9ef4578"
+    },
+    {
+      "path": "test_company_events.py",
+      "bytes": 7144,
+      "sha256": "e330e7d9d400321633c44ea20d0ca92873da775cb766c2bfde0021179b4c295a"
+    },
+    {
+      "path": "test_company_research.py",
+      "bytes": 6679,
+      "sha256": "dec4c9ff8e8e3e00c2f134ebf4f0b474c18082a0b9800617ae58fb61640f0479"
+    },
+    {
+      "path": "test_company_strategy.py",
+      "bytes": 3184,
+      "sha256": "47a8d84a17de95fc4bd54f7bb60db2a14019f98117a449e94bfeaa6719823bbc"
+    },
+    {
+      "path": "test_daily_stock_refresh.py",
+      "bytes": 15211,
+      "sha256": "c1fb09903aeaea5cac7196d65b19be80b28d35239c203d41e3bc80052fa84f1f"
+    },
+    {
+      "path": "test_data_audit.py",
+      "bytes": 5292,
+      "sha256": "14c92e553e10a2723029939a40cb4922c41a7f242e910a6bb8f0b703bb155c89"
+    },
+    {
+      "path": "test_debt_engine.py",
+      "bytes": 2923,
+      "sha256": "6bec788dff886310fab39d3a5ccd32a85eb07c092d6b270bfe1b9d6bb5915cb1"
+    },
+    {
+      "path": "test_decision_snapshots.py",
+      "bytes": 6352,
+      "sha256": "370b4c5780d7775d7bd41fca34be6aecceb58185d550bed5765d7b68b5ee6cd4"
+    },
+    {
+      "path": "test_experimental_basket.py",
+      "bytes": 5239,
+      "sha256": "0e518ba469ba5e5bb49e1a019d9e38b95ace8736029054bce41e12e9848f9c7d"
+    },
+    {
+      "path": "test_filing_share_evidence.py",
+      "bytes": 5103,
+      "sha256": "1b4d14cf3d4e926c07a6747291178b0737370082421984b720871e640cb1a3c2"
+    },
+    {
+      "path": "test_frontend_api_client.py",
+      "bytes": 2527,
+      "sha256": "9b213f5a2a5c2f5c92ad27cde3416325c603906dcc6e5b2bda160f5a47a7aa53"
+    },
+    {
+      "path": "test_fundamental_refresh.py",
+      "bytes": 6146,
+      "sha256": "b4bbe5cce5b140bd651496fad276c8c9df9b107dba2579715d95618c2973b926"
+    },
+    {
+      "path": "test_goal_explorer.py",
+      "bytes": 7275,
+      "sha256": "94614c199b68b1228500ad0637803417e85389a9c5b91d81c17e73225c046164"
+    },
+    {
+      "path": "test_goal_report.py",
+      "bytes": 7313,
+      "sha256": "26f2264e393562ec28a316e22b8028a3a836674bc041246ab32a34fc90c58eab"
+    },
+    {
+      "path": "test_goal_sensitivity.py",
+      "bytes": 2476,
+      "sha256": "eab562f4bda681de279d69160c64bfea3def84e5c25ece80d62b76b7c76ac431"
+    },
+    {
+      "path": "test_history_chart.py",
+      "bytes": 2029,
+      "sha256": "d063bb9ee532386fe87765576d6d1115b7c5764fb9b61b0e4132407d689895a6"
+    },
+    {
+      "path": "test_holding_notes.py",
+      "bytes": 2637,
+      "sha256": "a4675877fb3f9cdebfdf8ff93d7e2a52fe0278237d9808f80dc2453e88c2a0b5"
+    },
+    {
+      "path": "test_holding_research.py",
+      "bytes": 2962,
+      "sha256": "6ba6424c103e671f1c218bce11a5c699ff0a20eeeb8009834a867a81d90b0963"
+    },
+    {
+      "path": "test_holding_research_ui.py",
+      "bytes": 3863,
+      "sha256": "221e6ce510bd066b07c16b2fcd2216ae83233181c93cd225bce7f8cf3f7d065f"
+    },
+    {
+      "path": "test_investment_visuals.py",
+      "bytes": 3368,
+      "sha256": "9beee33769e899afeb014b681c3316c74a54ef29cdd991554fc5ec50147d0ccb"
+    },
+    {
+      "path": "test_market_data.py",
+      "bytes": 4006,
+      "sha256": "ee4c89601435a18c2554f14a1fd7bb559bc6e4d5d9677c7590a33e8b513d391e"
+    },
+    {
+      "path": "test_market_history.py",
+      "bytes": 4314,
+      "sha256": "7b844979be97a3b29cc459f9fb4dc3f478c41906c05c253c238d829144027360"
+    },
+    {
+      "path": "test_portfolio_overview.py",
+      "bytes": 1869,
+      "sha256": "9b51dcafd45a2ada9c8f98b8019a636f68f9d3bd24f35a1e637ab5201b567192"
+    },
+    {
+      "path": "test_price_checks.py",
+      "bytes": 2854,
+      "sha256": "0410344a50e5d8bf4fc64a1f8f9789b6dd6f2ac6c5792e8d1129804854a9584b"
+    },
+    {
+      "path": "test_privacy.py",
+      "bytes": 3585,
+      "sha256": "446ca444a58883565e36a3efb60bb12597bd6f16893e88d790797765bfb6065e"
+    },
+    {
+      "path": "test_public_data_pipeline.py",
+      "bytes": 14271,
+      "sha256": "583add7d014d74411c03e55fe767f61d74893a31365a604545d11ef561a568ca"
+    },
+    {
+      "path": "test_ranking_cost_evaluation.py",
+      "bytes": 3109,
+      "sha256": "0f776e1a4edee5970e5719e42717f7d5d43285a8158c52debdef6807a76f152c"
+    },
+    {
+      "path": "test_ranking_cost_ui.py",
+      "bytes": 1604,
+      "sha256": "9293510d0ed0842ad0085f5f0a4d9ff715d78d16693a4bebdc92aa6f996e48ba"
+    },
+    {
+      "path": "test_readiness_engine.py",
+      "bytes": 3139,
+      "sha256": "291c49affc3279e6e5638dff14fabfc74da5a6fa9899e93e181728dd65ad1e97"
+    },
+    {
+      "path": "test_reference_refresh.py",
+      "bytes": 5207,
+      "sha256": "195514c9f3ab288ab3a38a7ebda93c2b3c4467d7661946fce542b9d7a67b25a0"
+    },
+    {
+      "path": "test_rental_feasibility.py",
+      "bytes": 6123,
+      "sha256": "5be0bc9c1fe0dc6348dc064f770a85617e9d9f8483aacf2ee724cb2525e73cd6"
+    },
+    {
+      "path": "test_rental_projection.py",
+      "bytes": 5749,
+      "sha256": "fefef157a89f026cd65376990e3802bf2807b01052be751abd19a70424a2ea85"
+    },
+    {
+      "path": "test_rental_underwriting.py",
+      "bytes": 4395,
+      "sha256": "8f341a43443613ea156f0760d28adcdf4c7290ca7e7c83195aba9e43c6e644a8"
+    },
+    {
+      "path": "test_repository_safety.py",
+      "bytes": 4572,
+      "sha256": "911f54c5a90bf429214334386dd7cb4ac0c975768e9b0fec83345c75cb1fc67a"
+    },
+    {
+      "path": "test_scenario_runs.py",
+      "bytes": 3619,
+      "sha256": "c8319da00aa4e1f1fe7d9267dbbbe04dcef08e4bc0ef715e43fc432aa137ca90"
+    },
+    {
+      "path": "test_sec_import.py",
+      "bytes": 4273,
+      "sha256": "fedc66911cb8a3198a91c75d144b62fd2c81255e065d101b698775b9ec082f19"
+    },
+    {
+      "path": "test_security_identity.py",
+      "bytes": 4054,
+      "sha256": "92072318a17cfa629a156692efdaca6cf3db2e65aae37dc70b72a62c08105996"
+    },
+    {
+      "path": "test_security_listing.py",
+      "bytes": 7116,
+      "sha256": "54581bc55b9fdfd96d15fd6ca5361460d5c40b48dc1e08dcf1588bc7544817a2"
+    },
+    {
+      "path": "test_simulation_engine.py",
+      "bytes": 2712,
+      "sha256": "e8bb0f017ea63e3701a14c08bef715ae6c634312308bef1ec741f93166746eb6"
+    },
+    {
+      "path": "test_stock_acceptance.py",
+      "bytes": 3199,
+      "sha256": "08cf6c03fce3e620f2ad11730d558c48a9494f13eb746df81814925a40854da2"
+    },
+    {
+      "path": "test_stock_acceptance_ui.py",
+      "bytes": 1565,
+      "sha256": "4bef4db59a09688992b777a2dddbc33193edcb84e1d8d95f9c6048ebb0146203"
+    },
+    {
+      "path": "test_stock_benchmark.py",
+      "bytes": 689,
+      "sha256": "7ca1864ac779d62189e9f885599890f46670a7967a3f6655a59b18d8d9814b77"
+    },
+    {
+      "path": "test_stock_data_probe.py",
+      "bytes": 2839,
+      "sha256": "f55fd06d75c50b270a8fd1c73a523475dc317e154e165586ec7da30a6bf1b880"
+    },
+    {
+      "path": "test_stock_decision_report.py",
+      "bytes": 2706,
+      "sha256": "d34ae1139e42681551ba1604a371b4c43e6f793fd171bdb62af2fc3bf580d75c"
+    },
+    {
+      "path": "test_stock_decisions.py",
+      "bytes": 9500,
+      "sha256": "feffa75f71c82d6cc9d371a43fe5616295597d8577d32e7b7b9974c3127e8681"
+    },
+    {
+      "path": "test_stock_decisions_ui.py",
+      "bytes": 7165,
+      "sha256": "0895f00e4f5db86c4ed21040253d48c37084c0016ef8855313353dac9e7aff97"
+    },
+    {
+      "path": "test_stock_financials.py",
+      "bytes": 7841,
+      "sha256": "2952fcc5352bb92b4748bbdb2fefa21ffc17b0f2fb5b63c36fece32a25306229"
+    },
+    {
+      "path": "test_stock_metrics.py",
+      "bytes": 3818,
+      "sha256": "6a02d919fe85515e4dbefb886e103fbcab21aba362e3d26ee241454deb4e174c"
+    },
+    {
+      "path": "test_stock_monthly.py",
+      "bytes": 5494,
+      "sha256": "7599901b9e43e60e4fbaa855ad18ebcf37ac86e189133f8d7984a2fc9f4a5601"
+    },
+    {
+      "path": "test_stock_monthly_ui.py",
+      "bytes": 1532,
+      "sha256": "9387789402614912be2cf1e62b042794d79563fcbcc668b7d688c3e2f5f8acf9"
+    },
+    {
+      "path": "test_stock_replay.py",
+      "bytes": 4366,
+      "sha256": "386c5c0df7ee66000a40d1e9354541153a9090ce8000c2e1f82baf1e54a45e48"
+    },
+    {
+      "path": "test_stock_review.py",
+      "bytes": 9246,
+      "sha256": "86b104f93af1aaafa144bf2e9cfa09c3f7ae0fe5ea24ed096461d5093a46a4fb"
+    },
+    {
+      "path": "test_stock_screen.py",
+      "bytes": 6207,
+      "sha256": "b5c1103946b615e883337622faba55411c9d2b307f6e1d3a109ccb029929a285"
+    },
+    {
+      "path": "test_stock_strategy.py",
+      "bytes": 5575,
+      "sha256": "6139739a04b611c3479e4dad45cc73f967df8c77fdbc605880c16c5c1f382e67"
+    },
+    {
+      "path": "test_streamlit_app.py",
+      "bytes": 45252,
+      "sha256": "5961ce36d0849f09875a2db52d01b9c259eecceeede5b37f0d56c8fc496c14f4"
+    },
+    {
+      "path": "test_tax_engine.py",
+      "bytes": 11285,
+      "sha256": "f8a028d85e4a28c9d8e21a0f5a4a0d3e25f30b5322257d422a8eb25857b27b6c"
+    },
+    {
+      "path": "tools/audit_filing_shares.py",
+      "bytes": 2757,
+      "sha256": "e96d6b94d00a24149e71281f505eeb8bea9484d4628f7dd1522340eb2a90b105"
+    },
+    {
+      "path": "tools/audit_market_data.py",
+      "bytes": 5083,
+      "sha256": "5ff27149c9ac8040df7f67ba965c11c22254c3fc2a50a2eceb1d20752d9cc6ba"
+    },
+    {
+      "path": "tools/audit_stock_research.py",
+      "bytes": 4182,
+      "sha256": "5f93db9b198c191c467c28007338eb001c52b541832dbe7f0b8e6285272d1d8b"
+    },
+    {
+      "path": "tools/benchmark_stock_research.py",
+      "bytes": 2868,
+      "sha256": "8a4de3c9f9de15b13451669d295e9b286b61850b0cc4c5234b096dad77be105f"
+    },
+    {
+      "path": "tools/check_prices.py",
+      "bytes": 995,
+      "sha256": "ab964422e85b698931a3ac29c4cc206b6c7fcd5e30ec483a23d6cd9130259045"
+    },
+    {
+      "path": "tools/evaluate_allocation.py",
+      "bytes": 4562,
+      "sha256": "e15aebde56aa1aa5cee5ebe0b9e209ec7184f9872a7f3663f4969a07246d1271"
+    },
+    {
+      "path": "tools/evaluate_ranking_costs.py",
+      "bytes": 1586,
+      "sha256": "be7b76fc0a780683b0f9bfa42321d9fe059a91a70e4035031d329511566be1aa"
+    },
+    {
+      "path": "tools/evaluate_stock_workflow.py",
+      "bytes": 1076,
+      "sha256": "4c43882b501e2362477f2ffeba2315031734e6ab4d1df1ec328bcc3941fa8571"
+    },
+    {
+      "path": "tools/import_sec_issuers.py",
+      "bytes": 1414,
+      "sha256": "7b0c65c539ea9bedcdc69e23104a973bcd5a7d718e3cf33788c6b57609522372"
+    },
+    {
+      "path": "tools/normalize_stock_samples.py",
+      "bytes": 1721,
+      "sha256": "ab8b4774f27523d27b46f103f5a922bc3eca3498b084ec6555acbe75ef10f0a7"
+    },
+    {
+      "path": "tools/prepare_public_repository.py",
+      "bytes": 1538,
+      "sha256": "d3ebce7bb93f8a91c915fe05096a343565eaad9c976ee9b40ca82e6c2dc0391c"
+    },
+    {
+      "path": "tools/preview_goal_report.py",
+      "bytes": 2053,
+      "sha256": "e39b638616c44c76cc977b0a1735bc9b8e5ffb78b64d971919d333f10b403160"
+    },
+    {
+      "path": "tools/probe_stock_data_access.py",
+      "bytes": 5150,
+      "sha256": "e77a36ffcc5d6eb86b82afccc46fe1827d7037151acf615c932018d85b374406"
+    },
+    {
+      "path": "tools/refresh_company_events.py",
+      "bytes": 2169,
+      "sha256": "b855b100355c00a709f67b55cdad89992a67b58747d97a664685264dbf8197e5"
+    },
+    {
+      "path": "tools/refresh_installed_fundamentals.py",
+      "bytes": 2031,
+      "sha256": "42ed419a92696891906d8890cd2826023eddcb335a14b4ff31a7e0f368a23b82"
+    },
+    {
+      "path": "tools/refresh_installed_history.py",
+      "bytes": 2725,
+      "sha256": "4ea7b541a6d1e74ec0fa304a49923611b067dd04d204076b7c62b0f156087523"
+    },
+    {
+      "path": "tools/refresh_market_data.py",
+      "bytes": 2074,
+      "sha256": "350d5f8d5ada6b22a710112a094eae8d446bfa2fa32f8166e68f2b84e76c23e1"
+    },
+    {
+      "path": "tools/refresh_price_history.py",
+      "bytes": 2399,
+      "sha256": "2069162ecf7fa21538f3208d2493e6ced14275bb09447b4b97a5ef61fb0a9345"
+    },
+    {
+      "path": "tools/refresh_stock_references.py",
+      "bytes": 1522,
+      "sha256": "2f5f4f8594294a08d53cbb0762a930d1a40cae72592534787505a46b69990717"
+    }
+  ],
+  "notice": "Source snapshot only. Pattern checks are not a guarantee that every secret or privacy issue is detectable."
+}
